@@ -1,7 +1,0 @@
-# Arquivos de ambiente virtual 
-/venv/
-.venv/
-.env
-# Arquivos de cache e de compilação
-__pycache__/
-*.pyc

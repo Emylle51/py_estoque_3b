@@ -4,7 +4,7 @@ from functools import wraps
 from werkzeug.security import generate_password_hash, check_password_hash
 import psycopg2
 import psycopg2.extras
-import os
+impor
 
 # Configuração da aplicação Flask
 app = Flask(__name__)
@@ -203,6 +203,8 @@ def editar_produto(produto_id):
         except Exception:
             Flask("Erro ao atualizar o produto. Veja logs do servidor.")
     return render_template('editar_produto.html', produto=produto, usuario=session.get('usuario_nome'))
+
+    #BLA BLA BLA BLA BLA
 
 if __name__ == '__main__':
     app.run(debug=True)
